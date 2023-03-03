@@ -1,37 +1,11 @@
 <!DOCTYPE html>
-
 <html>
-
-    <head>
-        <title>My shaandaar todolist</title>
-        <style>
-            a {
-                text-decoration: none;
-                color: black;
-            }
-
-        </style>
-    </head>
-
-    <body>
-        <h1>GNA Students are Super Duper Awesome</h1>
-        <ul>
-            <% todolist.forEach(function(todo, index) { %>
-            <li>
-                <a href="/todo/delete/<%= index %>">✘</a>
-                <a href="/todo/<%= index %>">✎</a>
-                <%- todo %>
-            </li>
-            <% }); %>
-        </ul>
-
-        <form action="/todo/add/" method="post">
-            <p>
-                <label for="newtodo">What shoud I do?</label>
-                <input type="text" name="newtodo" id="newtodo" autofocus />
-                <input type="submit" value="Add" />
-            </p>
-        </form>
-    </body>
-
+<head>
+	<title>Hello World!</title>
+</head>
+<body>
+	<h1>Hello World!</h1>
+	<p>Welcome to my website.</p>
+	<img src="https://media.giphy.com/media/l0Iy52W7zu5U6Y5k4/giphy.gif" alt="GIF">
+</body>
 </html>
